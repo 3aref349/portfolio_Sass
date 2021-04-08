@@ -1,0 +1,29 @@
+.foot{
+  height:70px;
+  margin-bottom: 0;
+  @include  add-background(black);
+  .copy{
+p{
+margin-top: 20px;
+}
+  a{
+
+  }
+  }
+.nav-footer{
+margin-top: 15px;
+ a{
+font-weight: bold;
+   margin-left: 50px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    opacity: 0.75;
+    display: inline;
+
+  }
+  a:hover{
+    color:blue;
+  }
+}
+}

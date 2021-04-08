@@ -1,0 +1,17 @@
+/* button*/
+.btn{
+  border-radius: 40px;
+  @include add-border(2px,black,all);
+
+}
+.btn-primary{
+
+
+   @include add-background (white);
+   @include add-border(2px,black,all);
+}
+
+.btn-primary:hover{
+    background: darken(black,50%);
+    @include add-border(2px,black,all);
+}

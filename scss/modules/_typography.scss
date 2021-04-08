@@ -1,0 +1,90 @@
+
+/* icons*/
+.fab{
+  padding: 20px;
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+}
+.fab:hover {
+    opacity: 0.7;
+}
+
+.fab-2{
+  font-size: 20px;
+}
+.fab-3{
+  font-size: 24px;
+}
+.fab-4{
+  font-size: 70px;
+}
+.fa-5{
+  font-size: 35px;
+}
+.fab-6{
+  font-size: 40px;
+}
+.fa-primary{
+  color: blue;
+
+}
+.fab-border{
+  @include add-border(1px,$hover-color,all);
+  @include border-radius (5px);
+  padding: 13px 15px;
+  width:70px;
+  margin-bottom: 10px;
+  color: black
+}
+
+/* headings*/
+.heading-primary{
+  padding-top: 30px;
+  color: $primary-color;
+}
+.heading-primary-a{
+@extend .heading-primary;
+@include add-border(2px,$primary-color,bottom);
+}
+
+.heading-secondary{
+    padding-top: 30px;
+  color: $secondary-color;
+}
+.heading-secondary-a{
+@extend .heading-secondary;
+@include add-border(2px,$secondary-color,bottom);
+}
+.heading-light{
+  color: $light-color;
+}
+.heading-light-a{
+@extend .heading-light;
+@include add-border(2px,$light-color,bottom);
+}
+.heading-dark{
+  color: $dark-color;
+}
+.heading-darky-a{
+@extend .heading-dark;
+@include add-border(2px,$dark-color,bottom);
+}
+/* emphasis text*/
+
+.em-primary{
+  color: $primary-color;
+}
+.em-secondary{
+  color: $secondary-color;
+}
+
+.em-dark{
+  color: $dark-color;
+}
+
+.em-light{
+  color: $light-color;
+}

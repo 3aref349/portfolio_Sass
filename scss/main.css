@@ -1,0 +1,65 @@
+/*
+Syntax error: Invalid CSS after "}": expected "}", was ""
+        on line 40 of C:/projects/skyapp/scss/base/_mixins.scss
+        from line 5 of C:/projects/skyapp/scss/main.scss
+
+Backtrace:
+C:/projects/skyapp/scss/base/_mixins.scss:40
+C:/projects/skyapp/scss/main.scss:5
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1129:in `expected'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1066:in `expected'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1061:in `tok!'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:519:in `block'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:175:in `mixin_directive'
+org/jruby/RubyKernel.java:2092:in `send'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:163:in `special_directive'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:135:in `directive'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:536:in `block_child'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:529:in `block_contents'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:70:in `stylesheet'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:27:in `parse'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:342:in `_to_tree'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:272:in `to_tree'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:222:in `visit_import'
+org/jruby/RubyKernel.java:2096:in `send'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+org/jruby/RubyArray.java:2336:in `collect'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:107:in `visit_children'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:119:in `with_environment'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:106:in `visit_children'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:126:in `visit_root'
+org/jruby/RubyKernel.java:2096:in `send'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
+org/jruby/RubyKernel.java:2096:in `send'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/root_node.rb:20:in `render'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:315:in `_render'
+E:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:262:in `render'
+E:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
+E:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+E:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
+E:/vendor/gems/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+E:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+E:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+E:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
+org/jruby/RubyArray.java:1603:in `each'
+E:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
+E:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+E:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+E:/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+E:/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:68:in `perform'
+E:/vendor/gems/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+E:/vendor/gems/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+E:/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+E:/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+E:\bin\compass:12:in `(root)'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 40 of C:/projects/skyapp/scss/base/_mixins.scss\A         from line 5 of C:/projects/skyapp/scss/main.scss"; }
